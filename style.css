@@ -346,6 +346,16 @@ input[type="email"]:focus {
 
 .footer-wrapper {
     flex: 1;
+    flex-basis: 150px;
+}
+
+.footer-wrapper:nth-child(1) {
+    flex: 2;
+    flex-basis: 300px;
+}
+
+.footer-container .flex {
+    align-items: flex-start;
 }
 
 .footer-wrapper .social-icon {
@@ -355,6 +365,16 @@ input[type="email"]:focus {
 .footer-wrapper .social-icon:hover {
     background: var(--lead);
     color: var(--pure-white);
+}
+
+.footer-link {
+    color: gray;
+    font-size: 1.1rem;
+    transition: .3s ease-in-out;
+}
+
+.footer-link:hover {
+    color: var(--lead);
 }
 
 /* MEDIA QUERIES */
